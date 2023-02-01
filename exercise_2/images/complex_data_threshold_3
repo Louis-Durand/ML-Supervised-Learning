@@ -1,0 +1,21 @@
+// Graph created from complex data
+strict graph {
+	trap
+	hiphop
+	metal
+	rock
+	classical
+	other
+	jazz
+	"technical death metal"
+	rap
+	metal -- rock [color=darkolivegreen4 penwidth=1.1]
+	metal -- other [color=darkolivegreen4 penwidth=1.1]
+	metal -- "technical death metal" [color=darkolivegreen4 penwidth=1.1]
+	metal -- rap [color=darkolivegreen4 penwidth=1.1]
+	rock -- metal [color=darkolivegreen4 penwidth=1.1]
+	other -- metal [color=darkolivegreen4 penwidth=1.1]
+	"technical death metal" -- metal [color=darkolivegreen4 penwidth=1.1]
+	rap -- metal [color=darkolivegreen4 penwidth=1.1]
+	fontsize=20 label="threshold 3"
+}
